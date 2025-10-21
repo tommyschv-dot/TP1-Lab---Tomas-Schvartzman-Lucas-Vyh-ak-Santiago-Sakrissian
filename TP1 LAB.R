@@ -560,14 +560,14 @@ mean(ejemplo2_heterogeneidad$X1_b)
 par(mfrow = c(1, 2)) 
 
 hist(ejemplo1_heterogeneidad$X1, freq = FALSE,
-     main = "Heterogeneidad antes del aumento de P1",
+     main = "Het. antes del aumento de P1",
      xlab = "X1", xlim = c(0,10),ylim = c(0, 0.9),
      col = "grey")
 lines(density(ejemplo1_heterogeneidad$X1), col = "red", lwd = 2)
 abline(v = mean(ejemplo1_heterogeneidad$X1), col = "blue", lwd = 2, lty = 2)
 
 hist(ejemplo2_heterogeneidad$X1_b, freq = FALSE,
-     main = "Heterogeneidad despues del aumento de P1",
+     main = "Het. despues del aumento de P1",
      xlab = "X1_b", xlim = c(0,10), ylim = c(0, 0.9),
      col = "grey")
 lines(density(ejemplo2_heterogeneidad$X1_b), col = "purple", lwd = 2)
